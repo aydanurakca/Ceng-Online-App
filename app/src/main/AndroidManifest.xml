@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pltermproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/deucenglogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/deucenglogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".CourseInfo"
+            android:parentActivityName=".CoursesStudent" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Student"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Teacher"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".CoursesTeacher"
+            android:parentActivityName=".Teacher" />
+        <activity
+            android:name=".CoursesStudent"
+            android:parentActivityName=".Student" />
+        <activity
+            android:name=".AssignmentsTeacher"
+            android:parentActivityName=".Teacher" />
+        <activity
+            android:name=".AssignmentsInfo"
+            android:parentActivityName=".AssignmentsTeacher" />
+        <activity
+            android:name=".AssignmentsStudent"
+            android:parentActivityName=".Student" />
+        <activity
+            android:name=".UploadWork"
+            android:parentActivityName=".AssignmentsInfo" />
+        <activity
+            android:name=".ShowUploadsTeacher"
+            android:parentActivityName=".AssignmentsInfo" />
+        <activity
+            android:name=".UploadInfo"
+            android:parentActivityName=".ShowUploadsTeacher" />
+        <activity
+            android:name=".AnnouncementsStudent"
+            android:parentActivityName=".Student" />
+        <activity
+            android:name=".AnnouncementsTeacher"
+            android:parentActivityName=".Teacher" />
+        <activity
+            android:name=".AnnouncementsInfo"
+            android:parentActivityName=".AnnouncementsTeacher" />
+        <activity
+            android:name=".MessageReply"
+            android:parentActivityName=".InboxList" />
+        <activity
+            android:name=".InboxList"
+            android:parentActivityName=".Teacher" />
+        <activity
+            android:name=".UsersList"
+            android:parentActivityName=".InboxList" />
+        <activity
+            android:name=".SentMessageInfo"
+            android:parentActivityName=".SentMessages" />
+        <activity
+            android:name=".SentMessages"
+            android:parentActivityName=".InboxList" />
+        <activity
+            android:name=".Stream"
+            android:parentActivityName=".CoursesTeacher" />
+        <activity
+            android:name=".CommentsScreen"
+            android:parentActivityName=".Stream" />
+        <activity android:name=".AddPostScreen"
+            android:parentActivityName=".Stream"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

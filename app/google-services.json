@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "243620223290",
+    "firebase_url": "https://pltermproject.firebaseio.com",
+    "project_id": "pltermproject",
+    "storage_bucket": "pltermproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243620223290:android:3e1f86d95d42c098275803",
+        "android_client_info": {
+          "package_name": "com.example.pltermproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243620223290-s94rfp1jcobdl2cr498onsf6sppr6mk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pltermproject",
+            "certificate_hash": "e63442114b766174094d7c465b523c5c23735207"
+          }
+        },
+        {
+          "client_id": "243620223290-jmk5m6s4h6g7tmjt9gbt5g9tgjggcvfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pltermproject",
+            "certificate_hash": "a3b134f8ce462049f369b6e1358626f06351ba35"
+          }
+        },
+        {
+          "client_id": "243620223290-a51pqk92fpjdnjh49l1ko1or7gbd8ubn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2qAWC7lZtl6-Y6M738cdtY6MNidAhWcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243620223290-a51pqk92fpjdnjh49l1ko1or7gbd8ubn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
